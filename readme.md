@@ -32,5 +32,5 @@ namespace meihao
 };
 ```
 5. 现在可以在其他随意地方使用了，只要头文件引入：
-####   `#include<cppjieba/Jieba.hpp>` ####
+> `#include<cppjieba/Jieba.hpp>` 
 6. 文件中的demo.cpp是源码中的一个示例文件,mydemo.cpp是我做了一点点改动后的使用方法示例,这样做就不用每次使用都clone下所有源代码,在指定路径下编写代码对中文语料进行分词。
