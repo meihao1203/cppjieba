@@ -16,18 +16,18 @@
 `sudo chmod a+w Jieba.hpp`
 4. Jieba.hpp里在自己命名的命名空间里创建对象
 
- `namespace meihao`
-		`{`
+ `namespace meihao`<br>
+		`{`<br>
  	   	`const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";`<br>
  	   	`const char* const HMM_PATH = "/usr/local/include/cppjieba/dict/hmm_model.utf8";`<br>
  	   	`const char* const USER_DICT_PATH = "/usr/local/include/cppjieba/dict/user.dict.utf8";`<br>
  	   	`const char* const IDF_PATH = "/usr/local/include/cppjieba/dict/idf.utf8";`<br>
  	   	`const char* const STOP_WORD_PATH = "/usr/local/include/cppjieba/dict/stop_words.utf8";`<br>
  	   	`cppjieba::Jieba jieba(DICT_PATH,<br>
- 	   	 	   	 	     HMM_PATH,
- 	   	 	   	 	     USER_DICT_PATH,
- 	   	 	   	 	     IDF_PATH,
- 	   	 	   	 	     STOP_WORD_PATH);
+ 	   	 	   	 	     HMM_PATH,<br>
+ 	   	 	   	 	     USER_DICT_PATH,<br>
+ 	   	 	   	 	     IDF_PATH,<br>
+ 	   	 	   	 	     STOP_WORD_PATH);<br>
 		};
 5. 现在可以在其他随意地方使用了，只要头文件引入：
 ###   `#include<cppjieba/Jieba.hpp>` ###
