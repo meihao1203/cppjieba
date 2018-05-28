@@ -3,9 +3,9 @@
 
 
 这个是我在自己的Linux系统上为了方便使用，做了部分设置，只copy了源码的一部分代码：
->cppjieba\include\ 下的cppjieba文件夹 
->cppjieba\ 下的dict文件夹 
->cppjieba\deps\ 下的limonp
+>cppjieba\include\ 下的cppjieba文件夹<br>
+>cppjieba\ 下的dict文件夹<br>
+>cppjieba\deps\ 下的limonp<br>
 
 
 
@@ -16,13 +16,13 @@
 `sudo chmod a+w Jieba.hpp`
 4. Jieba.hpp里在自己命名的命名空间里创建对象
 
- 	  namespace meihao
-		{
-  	  	const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";
- 	   	const char* const HMM_PATH = "/usr/local/include/cppjieba/dict/hmm_model.utf8";
- 	   	const char* const USER_DICT_PATH = "/usr/local/include/cppjieba/dict/user.dict.utf8";
- 	   	const char* const IDF_PATH = "/usr/local/include/cppjieba/dict/idf.utf8";
- 	   	const char* const STOP_WORD_PATH = "/usr/local/include/cppjieba/dict/stop_words.utf8";
+ `namespace meihao`
+		`{`
+ 	   	`const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";`
+ 	   	`const char* const HMM_PATH = "/usr/local/include/cppjieba/dict/hmm_model.utf8";`
+ 	   	`const char* const USER_DICT_PATH = "/usr/local/include/cppjieba/dict/user.dict.utf8";`
+ 	   	`const char* const IDF_PATH = "/usr/local/include/cppjieba/dict/idf.utf8";`
+ 	   	`const char* const STOP_WORD_PATH = "/usr/local/include/cppjieba/dict/stop_words.utf8";`
 
  	   	cppjieba::Jieba jieba(DICT_PATH,
  	   	 	   	 	     HMM_PATH,
