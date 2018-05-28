@@ -18,13 +18,12 @@
 
  `namespace meihao`
 		`{`
- 	   	`const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";`
- 	   	`const char* const HMM_PATH = "/usr/local/include/cppjieba/dict/hmm_model.utf8";`
- 	   	`const char* const USER_DICT_PATH = "/usr/local/include/cppjieba/dict/user.dict.utf8";`
- 	   	`const char* const IDF_PATH = "/usr/local/include/cppjieba/dict/idf.utf8";`
- 	   	`const char* const STOP_WORD_PATH = "/usr/local/include/cppjieba/dict/stop_words.utf8";`
-
- 	   	cppjieba::Jieba jieba(DICT_PATH,
+ 	   	`const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";`<br>
+ 	   	`const char* const HMM_PATH = "/usr/local/include/cppjieba/dict/hmm_model.utf8";`<br>
+ 	   	`const char* const USER_DICT_PATH = "/usr/local/include/cppjieba/dict/user.dict.utf8";`<br>
+ 	   	`const char* const IDF_PATH = "/usr/local/include/cppjieba/dict/idf.utf8";`<br>
+ 	   	`const char* const STOP_WORD_PATH = "/usr/local/include/cppjieba/dict/stop_words.utf8";`<br>
+ 	   	`cppjieba::Jieba jieba(DICT_PATH,<br>
  	   	 	   	 	     HMM_PATH,
  	   	 	   	 	     USER_DICT_PATH,
  	   	 	   	 	     IDF_PATH,
