@@ -1,4 +1,4 @@
-# cppjieba源码地址 ：#
+# cppjieba源码地址 ：
 > [https://github.com/yanyiwu/cppjieba](https://github.com/yanyiwu/cppjieba "cppjieba")
 
 
@@ -15,6 +15,7 @@
 3. 修改Jieba.hpp文件权限
 `sudo chmod a+w Jieba.hpp`
 4. Jieba.hpp里在自己命名的命名空间里创建对象
+
  	  namespace meihao
 		{
   	  	const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";
