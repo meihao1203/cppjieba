@@ -3,10 +3,8 @@
 
 
 这个是我在自己的Linux系统上为了方便使用，做了部分设置，只copy了源码的一部分代码：
->cppjieba\include\ 下的cppjieba文件夹
-
->cppjieba\ 下的dict文件夹
-
+>cppjieba\include\ 下的cppjieba文件夹 
+>cppjieba\ 下的dict文件夹 
 >cppjieba\deps\ 下的limonp
 
 
