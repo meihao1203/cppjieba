@@ -15,8 +15,8 @@
 3. 修改Jieba.hpp文件权限<br>
 `sudo chmod a+w Jieba.hpp`
 4. Jieba.hpp里在自己命名的命名空间里创建对象<br>
-``C++
-``namespace meihao
+` ``C++
+` ``namespace meihao
 ```{
 ```	const char* const DICT_PATH = "/usr/local/include/cppjieba/dict/jieba.dict.utf8";
 ```	const char* const HMM_PATH = "/usr/local/include/cppjieba/dict/hmm_model.utf8";
