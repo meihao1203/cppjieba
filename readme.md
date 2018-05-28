@@ -23,12 +23,13 @@
  	   	`const char* const USER_DICT_PATH = "/usr/local/include/cppjieba/dict/user.dict.utf8";`<br>
  	   	`const char* const IDF_PATH = "/usr/local/include/cppjieba/dict/idf.utf8";`<br>
  	   	`const char* const STOP_WORD_PATH = "/usr/local/include/cppjieba/dict/stop_words.utf8";`<br>
- 	   	`cppjieba::Jieba jieba(DICT_PATH,<br>
- 	   	 	   	 	     HMM_PATH,<br>
- 	   	 	   	 	     USER_DICT_PATH,<br>
- 	   	 	   	 	     IDF_PATH,<br>
- 	   	 	   	 	     STOP_WORD_PATH);<br>
+		
+ 	   	`cppjieba::Jieba jieba(DICT_PATH,
+ 	   	 	   	       HMM_PATH,
+ 	   	 	   	       USER_DICT_PATH,
+ 	   	 	   	       IDF_PATH,
+ 	   	 	   	       STOP_WORD_PATH);
 		};
 5. 现在可以在其他随意地方使用了，只要头文件引入：
-###   `#include<cppjieba/Jieba.hpp>` ###
+####   `#include<cppjieba/Jieba.hpp>` ####
 6. 文件中的demo.cpp是源码中的一个示例文件,mydemo.cpp是我做了一点点改动后的使用方法示例,这样做就不用每次使用都clone下所有源代码,在指定路径下编写代码对中文语料进行分词。
